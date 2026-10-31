@@ -1,0 +1,207 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* ContentView.swift */; };
+		A10000000000000000000002 /* JARVISApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* JARVISApp.swift */; };
+		A10000000000000000000003 /* AIManager1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* AIManager1.swift */; };
+		A10000000000000000000004 /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* SpeechManager.swift */; };
+		A10000000000000000000005 /* ChatMessage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* ChatMessage1.swift */; };
+		A10000000000000000000006 /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* Speech.framework */; };
+		A10000000000000000000007 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* JARVISApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JARVISApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* AIManager1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIManager1.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* ChatMessage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage1.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
+		A20000000000000000000007 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A20000000000000000000008 /* JARVIS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JARVIS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B20000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000006 /* Speech.framework in Frameworks */,
+				A10000000000000000000007 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B10000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000002 /* macOS */,
+				A20000000000000000000006 /* Speech.framework */,
+				A20000000000000000000007 /* AVFoundation.framework */,
+				A20000000000000000000008 /* JARVIS.app */,
+			);
+			sourceTree = "<group>";
+		};
+		B10000000000000000000002 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* ContentView.swift */,
+				A20000000000000000000002 /* JARVISApp.swift */,
+				A20000000000000000000003 /* AIManager1.swift */,
+				A20000000000000000000004 /* SpeechManager.swift */,
+				A20000000000000000000005 /* ChatMessage1.swift */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C10000000000000000000001 /* JARVIS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C30000000000000000000001 /* Build configuration list for PBXNativeTarget "JARVIS" */;
+			buildPhases = (
+				C20000000000000000000001 /* Sources */,
+				B20000000000000000000001 /* Frameworks */,
+				C20000000000000000000002 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = JARVIS;
+			productName = JARVIS;
+			productReference = A20000000000000000000008 /* JARVIS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D10000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = C30000000000000000000002 /* Build configuration list for PBXProject */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = B10000000000000000000001;
+			productRefGroup = B10000000000000000000001;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (C10000000000000000000001 /* JARVIS */,);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C20000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C20000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* ContentView.swift in Sources */,
+				A10000000000000000000002 /* JARVISApp.swift in Sources */,
+				A10000000000000000000003 /* AIManager1.swift in Sources */,
+				A10000000000000000000004 /* SpeechManager.swift in Sources */,
+				A10000000000000000000005 /* ChatMessage1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E10000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_APP_SANDBOX = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "JARVIS uses the microphone to hear your voice commands.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "JARVIS uses speech recognition to turn your voice into text.";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roshan.jarvis;
+				PRODUCT_NAME = JARVIS;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E10000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_APP_SANDBOX = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "JARVIS uses the microphone to hear your voice commands.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "JARVIS uses speech recognition to turn your voice into text.";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roshan.jarvis;
+				PRODUCT_NAME = JARVIS;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E10000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E10000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C30000000000000000000001 /* Build configuration list for PBXNativeTarget "JARVIS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10000000000000000000001 /* Debug */,
+				E10000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C30000000000000000000002 /* Build configuration list for PBXProject "JARVIS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10000000000000000000003 /* Debug */,
+				E10000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D10000000000000000000001 /* Project object */;
+}
