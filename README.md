@@ -4,7 +4,7 @@ A macOS study assistant built with SwiftUI, with a Python FastAPI backend for AI
 
 ## Project structure
 
-The repository is intended to contain the Xcode macOS app and the `backend/` folder.
+The repository contains the Swift source files in `macOS/` and the Python API in `backend/`. The original `.xcodeproj` bundle and `Assets.xcassets` still need to be added from the Mac.
 
 ## Backend setup
 
@@ -22,5 +22,6 @@ The repository is intended to contain the Xcode macOS app and the `backend/` fol
 ## Notes
 
 - Keep secrets, virtual environments, Python cache files, and Xcode build output out of Git.
-- Add the Xcode project (`.xcodeproj`), Swift source files, and `Assets.xcassets` to this repository when publishing the full app.
+- The Swift files are in `macOS/`. Add these files to an Xcode macOS App project if opening them as a buildable app.
+- The original `.xcodeproj` and `Assets.xcassets` have not been uploaded yet.
 - Check that the app's privacy usage descriptions are configured in Xcode for any speech recognition or microphone features.
